@@ -1,0 +1,38 @@
+.transition {
+  animation: shake 1s;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg) scale(1);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg) scale(1.5);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg) scale(2);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg) scale(2.2);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg) scale(2.5);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg) scale(3);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg) scale(2.5);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg) scale(2.2);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg) scale(2);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg) scale(1.5);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg) scale(1);
+  }
+}
